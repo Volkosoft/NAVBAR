@@ -1,0 +1,32 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+body {
+    background-color: #222; 
+}
+#navbar {
+    background-color: #556;
+    text-align: center;
+}
+#navbar li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px;
+}
+.left {
+    transform: translateX(-300px);
+}
+.right {
+    transform: translateX(300px);
+}
